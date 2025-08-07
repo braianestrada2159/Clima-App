@@ -26,7 +26,7 @@ Aplicación web que permite consultar el clima actual de cualquier ciudad del mu
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/weather-app.git
+git clone https://github.com/braianestrada2159/Clima-App.git
 cd weather-app
 ```
 
