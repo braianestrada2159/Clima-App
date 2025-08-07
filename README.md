@@ -1,13 +1,77 @@
-# React + Vite
+# 🌤️ ClimaLink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web que permite consultar el clima actual de cualquier ciudad del mundo. Desarrollada con **React**, **Material UI (MUI)** y utilizando la API de [WeatherAPI.com](https://www.weatherapi.com/).
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Búsqueda de clima por nombre de ciudad
+- Consulta en tiempo real del clima actual
+- Información mostrada:
+  - Ciudad y país
+  - Temperatura en grados Celsius
+  - Estado del clima (nublado, soleado, lluvioso, etc.)
+  - Icono representativo del clima
+- Interfaz responsive y moderna usando MUI
 
-## Expanding the ESLint configuration
+## 🧑‍💻 Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Clima-App" 
+- ⚛️ React
+- 🎨 Material UI (MUI)
+- 🌐 Fetch API
+- 📦 Vite (entorno de desarrollo)
+- ☁️ WeatherAPI (API de datos climáticos)
+
+## 🔧 Instalación y Uso
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/weather-app.git
+cd weather-app
+```
+
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+3. Crea un archivo `.env` en la raíz del proyecto y agrega tu clave de API:
+
+```
+VITE_API_KEY=tu_clave_de_weatherapi
+```
+
+4. Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+5. Abre tu navegador en `http://localhost:5173` (o el puerto indicado).
+
+## 🔑 Obtener API Key
+
+Regístrate gratis en [WeatherAPI.com](https://www.weatherapi.com/) para obtener tu clave de API y colócala en el archivo `.env` como se muestra arriba.
+
+## 📁 Estructura del Proyecto
+
+```
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+├── .env
+├── package.json
+├── README.md
+```
+
+## 🙌 Créditos
+
+- [WeatherAPI.com](https://www.weatherapi.com/) por la API del clima
+- [Material UI](https://mui.com/) por los componentes de interfaz
+
+## 📄 Licencia
+
+Este proyecto se publica bajo la licencia MIT.
